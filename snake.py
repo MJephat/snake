@@ -61,10 +61,10 @@ def move():
  
  
 wn.listen()
-wn.onkeypress(group, "5")
-wn.onkeypress(godown, "2")
-wn.onkeypress(goleft, "1")
-wn.onkeypress(goright, "3")
+wn.onkeypress(group, "W")
+wn.onkeypress(godown, "S")
+wn.onkeypress(goleft, "A")
+wn.onkeypress(goright, "D")
 # The main game
 segments = []
 while True:
